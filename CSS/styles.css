@@ -5,9 +5,9 @@ body {
 }
 
 .bottom-cloud {
-  bottom: 75px;
+  bottom: 15%;
   position: absolute;
-  left: 100px;
+  left: 15%;
 }
 
 .bottom-container {
@@ -42,10 +42,15 @@ h2 {
   position: relative;
 }
 
+.skills{
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
 .top-cloud {
   position: absolute;
-  right:150px;
-  top:50px;
+  right:10%;
+  top:15%;
 }
 
 .top-container {
