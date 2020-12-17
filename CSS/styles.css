@@ -2,18 +2,18 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-
 }
 
 .bottom-cloud {
+  bottom: 75px;
   position: absolute;
   left: 100px;
-  bottom: 75px;
 }
 
 .bottom-container {
   background-color: #1c2b2d;
   color: white;
+  position: relative;
 
 }
 
@@ -27,19 +27,32 @@ body {
 }
 
 h1 {
-  width: 20%;
-  margin: 0 auto;
   font-family: 'Caveat', cursive;
+  font-size: 560%;
+  margin: 0 auto;
+  width: 20%;
 }
 
+h2 {
+  margin-top: 0;
+}
 
 .middle-container {
   background-color:#e6d5b8;
+  position: relative;
 }
 
+.top-cloud {
+  position: absolute;
+  right:150px;
+  top:50px;
+}
 
-.top-cloud {position: absolute; right:150px; top:50px;}
-.top-container {background-color: #1f6f8b; position: relative; height: 300px;}
+.top-container {
+  background-color: #1f6f8b;
+  height: 300px;
+  position: relative;
+}
 
 ul{
   text-align: left;
