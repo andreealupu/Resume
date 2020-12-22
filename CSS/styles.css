@@ -1,3 +1,9 @@
+.api-image{
+  float:left;
+  margin-right: 30px;
+  width: 30%;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -5,19 +11,32 @@ body {
 }
 
 .bottom-cloud {
-  bottom: 15%;
+  bottom: 5%;
   position: absolute;
   left: 15%;
+  width: 15%;
 }
 
 .bottom-container {
-  background-color: #1c2b2d;
-  color: white;
+  background-color: #d6e4f0;
+  color: #163172;
   position: relative;
 }
 
 .btn {
-  color:white;
+  color:#163172;
+}
+
+.consult-image{
+  float:left;
+  margin-right: 30px;
+  width: 30%;
+}
+
+.devops-image{
+  float:right;
+  margin-left: 30px;
+  width: 30%;
 }
 
 .footer-link {
@@ -39,8 +58,14 @@ h2 {
 }
 
 .middle-container {
-  background-color:#e6d5b8;
+  background-color:#f6f6f6;
   position: relative;
+}
+
+.plants-image {
+  float:left;
+  margin-right: 30px;
+  width: 20%;
 }
 
 .skills{
@@ -48,16 +73,41 @@ h2 {
   border-bottom-width: 2px;
 }
 
+.skill-row-right {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skills-list {
+  display: grid;
+}
+.skill-row-left {
+  width: 50%;
+  margin: 75px auto 75px auto;
+  text-align: right;
+  line-height: 2;
+}
+
+.sre-image{
+  float:right;
+  margin-left: 30px;
+  width: 30%;
+}
+
 .top-cloud {
   position: absolute;
   right:10%;
-  top:15%;
+  top:5%;
+  width: 15%;
+
 }
 
 .top-container {
-  background-color: #1f6f8b;
+  background-color: #163172;
   height: 300px;
   position: relative;
+  color:white;
 }
 
 ul{
