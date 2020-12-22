@@ -57,6 +57,14 @@ h2 {
   padding-top: 15px;
 }
 
+hr {
+  color: #d6e4f0;
+  width: 5%;
+  border-style: dotted none none none;
+  border-width: 10px;
+
+}
+
 .middle-container {
   background-color:#f6f6f6;
   position: relative;
@@ -68,7 +76,12 @@ h2 {
   width: 20%;
 }
 
+.profile {
+  width: 50%;
+  margin: auto;
+}
 .skills{
+  border-bottom-color: #f6f6f6;
   border-bottom-style: solid;
   border-bottom-width: 2px;
 }
