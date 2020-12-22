@@ -33,6 +33,24 @@ body {
   width: 30%;
 }
 
+.copyright {
+  margin: 20px 30px;
+  color: #F0F8FF;
+  font-size: .75rem;
+}
+
+.credit {
+  color: #F0F8FF;
+  font-size: .75rem;
+}
+.credit-link {
+  color: white;
+  text-decoration: none;
+}
+.credit-link:hover {
+  color: #1e56a0;
+}
+
 .devops-image{
   float:right;
   margin-left: 30px;
@@ -42,6 +60,10 @@ body {
 .footer-link {
   color: #f8f8f8;
   text-decoration: none;
+  margin: 30px 20px;
+}
+.footer-link:hover {
+  color: #1e56a0;
 }
 
 h1 {
@@ -49,12 +71,14 @@ h1 {
   font-size: 560%;
   margin: 0 auto;
   width: 20%;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 h2 {
+  color: #163172;
   margin-top: auto;
   padding-top: 15px;
+  font-style: oblique;
 }
 
 hr {
@@ -62,6 +86,7 @@ hr {
   width: 5%;
   border-style: dotted none none none;
   border-width: 10px;
+  margin: 35px auto 20px auto;
 
 }
 
@@ -80,6 +105,7 @@ hr {
   width: 50%;
   margin: auto;
 }
+
 .skills{
   border-bottom-color: #f6f6f6;
   border-bottom-style: solid;
@@ -122,6 +148,7 @@ hr {
   position: relative;
   color:white;
 }
+
 
 ul{
   text-align: left;
